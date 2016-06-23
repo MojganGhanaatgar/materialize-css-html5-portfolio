@@ -95,17 +95,47 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .main-container {
-  background-color: yellow;
-  padding: 40px;
 }
 
+
+
 .intro-content {
-  width: 100%;
-  text-align: center;
-  background-image: url('img/jungle.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url('../img/jungle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+}
+
+.intro-content p {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: monospace;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10%;
+}
+
+nav{
+  background-color: #000000;
+  height: 75px !important;
+}
+
+.box{
+  height: 320px;
+  max-height: 300px;
+  border: 1px solid gray;
+
+  background-color: yellow;
+}
+
+
+footer.page-footer{
+    background-color: rgb(37, 37, 37);
+
 }
 
 
