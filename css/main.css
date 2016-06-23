@@ -94,6 +94,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav-wrapper{
+  background-color: black;
+}
+nav .brand-logo{
+  padding: 0 0 0 10%;
+}
+
 .main-container {
   background-color: yellow;
   padding: 40px;
@@ -102,11 +109,17 @@ textarea {
 .intro-content {
   width: 100%;
   text-align: center;
-  background-image: url('img/jungle.jpg');
+  background-image: url('../img/jungle.jpg');
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
+  background-size: cover;
+  padding: 10%;
+  color: white;
+  font-size: 30px;
+  position: absolute;
 }
+
 
 
 
