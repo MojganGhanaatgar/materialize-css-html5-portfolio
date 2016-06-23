@@ -102,11 +102,21 @@ textarea {
 .intro-content {
   width: 100%;
   text-align: center;
-  background-image: url('img/jungle.jpg');
+  background-image: url('../img/jungle.jpg');
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
 }
+
+
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+  }
+
 
 
 
