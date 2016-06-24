@@ -101,11 +101,6 @@ nav .brand-logo{
   padding: 0 0 0 10%;
 }
 
-.main-container {
-  background-color: yellow;
-  padding: 40px;
-}
-
 .intro-content {
   width: 100%;
   text-align: center;
@@ -119,11 +114,28 @@ nav .brand-logo{
   font-size: 30px;
 }
 
+.info-box {
+  text-align: center;
+  padding: 5px;
+}
 
+.info-box-content {
+  padding: 20px;
+  background: red;
+}
 
+.portfolio-box {
+  text-align: center;
+  padding: 5px;
+}
 
+.portfolio-box-content {
+  background-color: green;
+}
 
-
+.img-portfolio-box-content {
+  width: 100%;
+}
 
 
 
