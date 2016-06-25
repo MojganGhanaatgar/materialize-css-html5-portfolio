@@ -147,16 +147,66 @@ nav .brand-logo{
 
 .portfolio-box-content {
   background-color: green;
-}
-
-.img-portfolio-box-content {
   height: 300px;
-  width: 100%;
-  max-height: 300px;
 }
 
-.img-portfolio-box-content .hover {
-  background-color: transparent;
+#portfolio-box-1 {
+  background-image: url("http://www.musclebeaver.com/wp-content/uploads/2015/02/Bike-Ride-Animation-Musclebeaver.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-2 {
+  background-image: url("https://vfs.edu/sites/vfs.edu/files/styles/showcase-mobile/public/images/homepage/default/20150309/nataliyametlukh1_f.jpg?itok=NTY-l4Vw");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-3 {
+  background-image: url("http://danielspacek.com/portfolio/character-design/archive/characters/1-0-pruznak.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-4 {
+  background-image: url("https://www.hslu.ch/-/media/campus/common/images/gallery/dk/dk%20news%20und%20erfolge/ivans%20need%20kulturplatz/800px%20ivans%20need%20still%2003%20web.jpg?h=800&la=de-ch");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-5 {
+  background-image: url("https://www.hslu.ch/-/media/campus/common/images/teasers/dk/dk%20master%20film/animation/flirt%20standbild%20animation.jpg?la=de-ch&centercrop=0&h=469&w=782&usecustomfunctions=1");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-6 {
+  background-image: url("http://digiblog.s3-eu-central-1.amazonaws.com/app/20160118165945/animatron_web.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-7 {
+  background-image: url("http://orig13.deviantart.net/7c3a/f/2012/310/d/e/glute_flexing___gif_animation_by_davidcmatthews-d5k845k.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-8 {
+  background-image: url("http://generalquizz.com/media/can-we-guess-your-age-by-your-general-knowledge/a9eae850-f1df-44e2-8724-1fe8888a8501_560_420.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-9 {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/52075235910261.5606339617c67.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-box-content:hover {
+  background-color: black;
+  opacity: .5;
 }
 
 body {
@@ -168,6 +218,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
 
 
 
