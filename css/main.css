@@ -219,8 +219,15 @@ main {
   flex: 1 0 auto;
 }
 
+.video-box {
+  text-align: center;
+  padding: 5px;
+}
 
-
+.video-box-content {
+  height: 300px;
+  background-size: cover;
+}
 
 
 
