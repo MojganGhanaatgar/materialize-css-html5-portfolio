@@ -95,23 +95,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .nav-wrapper{
-  background-color: black;
+  background-color: #ee6e73;
 }
 nav .brand-logo{
   padding: 0 0 0 10%;
+  color: #8bff44;
+}
+
+.material-icons {
+  color: #8bff44;
 }
 
 .intro-content {
   width: 100%;
   text-align: center;
-  background-image: url('../img/jungle.jpg');
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/2d/ef/41/2def415036bf866f96f564163d21b1c9.gif');
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 500px;
+  min-height: 100%;
   background-size: cover;
   padding: 10%;
   color: white;
-  font-size: 30px;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .info-box {
@@ -119,9 +125,19 @@ nav .brand-logo{
   padding: 5px;
 }
 
-.info-box-content {
+.info-box-content1 {
   padding: 20px;
-  background: red;
+  background: #f28961;
+}
+
+.info-box-content2 {
+  padding: 20px;
+  background: #1db9e8;
+}
+
+.info-box-content3 {
+  padding: 20px;
+  background: #5dc757;
 }
 
 .portfolio-box {
@@ -134,10 +150,24 @@ nav .brand-logo{
 }
 
 .img-portfolio-box-content {
+  height: 300px;
   width: 100%;
+  max-height: 300px;
 }
 
+.img-portfolio-box-content .hover {
+  background-color: transparent;
+}
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
 
 
 
