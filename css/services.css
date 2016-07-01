@@ -1,0 +1,13 @@
+.services-intro-container {
+  width: 100%;
+  text-align: center;
+  background-image: url("http://www.wtarealestate.com/images/573a4a808e8b5.png");
+  background-position: center;
+  background-size: cover;
+  padding: 10%;
+}
+
+.services-intro-container h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
