@@ -1,0 +1,14 @@
+.about-me-intro-container {
+  width: 100%;
+  text-align: center;
+  background-image: url("http://1.bp.blogspot.com/-9zF-51-YFzM/UbaI25Ovx_I/AAAAAAAAKSU/3XWJDcec36w/s1600/BusStop.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #5a3118;
+  padding: 10%;
+}
+
+.about-me-intro-container h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
