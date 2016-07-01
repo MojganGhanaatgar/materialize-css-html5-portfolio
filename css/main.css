@@ -102,6 +102,10 @@ nav .brand-logo{
   color: #8bff44;
 }
 
+.hide-on-med-and-down {
+  
+}
+
 .material-icons {
   color: #8bff44;
 }
@@ -140,9 +144,24 @@ nav .brand-logo{
   background: #5dc757;
 }
 
+.video-box {
+  text-align: center;
+  padding: 5px;
+}
+
+.video-box-content {
+  background-color: transparent;
+  height: 250px;
+}
+
 .portfolio-box {
   text-align: center;
   padding: 5px;
+}
+
+video {
+  background-size: cover;
+  background-position: center;
 }
 
 .portfolio-box-content {
@@ -219,15 +238,6 @@ main {
   flex: 1 0 auto;
 }
 
-.video-box {
-  text-align: center;
-  padding: 5px;
-}
-
-.video-box-content {
-  height: 300px;
-  background-size: cover;
-}
 
 
 
