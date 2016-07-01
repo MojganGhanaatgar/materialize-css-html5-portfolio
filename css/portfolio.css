@@ -1,0 +1,13 @@
+.portfolio-intro-container {
+  width: 100%;
+  text-align: center;
+  background-image: url("https://josh2brown.files.wordpress.com/2014/12/portfolio-background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 10%;
+}
+
+.portfolio-intro-container h1 {
+  font-size: 100px;
+  font-weight: bold;
+}

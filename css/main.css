@@ -1,3 +1,9 @@
+@import "services.css";
+@import "portfolio.css";
+@import "about-me.css";
+
+
+
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -94,12 +100,144 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav-wrapper{
+  background-color: #ee6e73;
+}
+nav .brand-logo{
+  padding: 0 0 0 10%;
+  color: #8bff44;
+}
+
+.hide-on-med-and-down {
+
+}
+
+.material-icons {
+  color: #8bff44;
+}
+
+.intro-content {
+  width: 100%;
+  text-align: center;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/2d/ef/41/2def415036bf866f96f564163d21b1c9.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-size: cover;
+  padding: 10%;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.info-box {
+  text-align: center;
+  padding: 5px;
+}
+
+.info-box-content1 {
+  padding: 20px;
+  background: #f28961;
+}
+
+.info-box-content2 {
+  padding: 20px;
+  background: #1db9e8;
+}
+
+.info-box-content3 {
+  padding: 20px;
+  background: #5dc757;
+}
+
+.video-row{
+  padding-bottom: 40px;
+}
+
+.video-box {
+  text-align: center;
+  padding: 5px;
+}
+
+.video-box-content {
+  background-color: transparent;
+  height: 250px;
+}
+
+.video-box-content video {
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-box {
+  text-align: center;
+  padding: 5px;
+}
 
 
+.portfolio-box-content {
+  background-color: green;
+  height: 300px;
+}
 
+.portfolio-box-content:hover {
+  background-color: black;
+  opacity: .5;
+}
 
+#portfolio-box-1 {
+  background-image: url("http://www.musclebeaver.com/wp-content/uploads/2015/02/Bike-Ride-Animation-Musclebeaver.gif");
+  background-size: cover;
+  background-position: center;
+}
 
+#portfolio-box-2 {
+  background-image: url("https://vfs.edu/sites/vfs.edu/files/styles/showcase-mobile/public/images/homepage/default/20150309/nataliyametlukh1_f.jpg?itok=NTY-l4Vw");
+  background-size: cover;
+  background-position: center;
+}
 
+#portfolio-box-3 {
+  background-image: url("http://danielspacek.com/portfolio/character-design/archive/characters/1-0-pruznak.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-4 {
+  background-image: url("https://www.hslu.ch/-/media/campus/common/images/gallery/dk/dk%20news%20und%20erfolge/ivans%20need%20kulturplatz/800px%20ivans%20need%20still%2003%20web.jpg?h=800&la=de-ch");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-5 {
+  background-image: url("https://www.hslu.ch/-/media/campus/common/images/teasers/dk/dk%20master%20film/animation/flirt%20standbild%20animation.jpg?la=de-ch&centercrop=0&h=469&w=782&usecustomfunctions=1");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-6 {
+  background-image: url("http://digiblog.s3-eu-central-1.amazonaws.com/app/20160118165945/animatron_web.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-7 {
+  background-image: url("http://orig13.deviantart.net/7c3a/f/2012/310/d/e/glute_flexing___gif_animation_by_davidcmatthews-d5k845k.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-8 {
+  background-image: url("http://generalquizz.com/media/can-we-guess-your-age-by-your-general-knowledge/a9eae850-f1df-44e2-8724-1fe8888a8501_560_420.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-box-9 {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/52075235910261.5606339617c67.gif");
+  background-size: cover;
+  background-position: center;
+}
 
 
 
