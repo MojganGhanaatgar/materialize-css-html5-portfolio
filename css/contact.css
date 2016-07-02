@@ -1,0 +1,16 @@
+.contact-intro-container {
+  width: 100%;
+  text-align: center;
+  background-image: url("http://shareyah.com/wp-content/uploads/2015/01/website-contact-us-icons-post-internet-page-concept-icon-five-paper-isolated-white-background-32678534.png");
+  background-position: center;
+  background-size: cover;
+  color: #d7a21f;
+  padding: 10%;
+}
+
+.contact-intro-container h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+contact-content
